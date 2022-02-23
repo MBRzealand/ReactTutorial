@@ -1,0 +1,30 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1e25;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    align-self: center;
+    padding: 5px;
+    width: 25px;
+}
+
+.text {
+    font-family: "Dubai Medium", serif;
+    color: hsl(193, 89%, 65%);
+}
+
+.nav-title {
+    font-family: "Dubai Light", serif;
+    color: hsl(0, 0%, 100%);
+}

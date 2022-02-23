@@ -1,0 +1,11 @@
+.profile-card{
+    width: 20vw;
+    height: 90vh;
+    background-color: hsl(230, 10%, 11%);
+    border-radius: 8px;
+}
+
+.profile-picture{
+    width: 100%;
+    border-radius: 8px 8px 0 0 ;
+}

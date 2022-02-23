@@ -1,0 +1,24 @@
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.full-name{
+    color: white;
+    font-size: 1rem;
+    font-family: "Dubai Medium", serif;
+}
+
+.job-title{
+    color: hsl(30, 67%, 85%);
+    font-size: 0.5rem;
+}
+
+.website-link{
+    text-decoration: none;
+    color: hsl(0, 0%, 71%);
+    font-size: 0.4rem;
+}

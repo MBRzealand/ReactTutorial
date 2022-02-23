@@ -1,0 +1,39 @@
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 4vw;
+    padding-top: 8vh;
+    box-shadow: inset 0 -40vh 20vh -10px hsla(0, 0%, 0%, 0.2);
+    background-color: hsl(216, 13%, 16%);
+    background-image: url("./logo512.png");
+    background-repeat: no-repeat;
+    background-position: 145% 50%;
+
+}
+
+.content-title {
+    font-family: "Dubai Light", serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+
+.facts {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.facts > li {
+    font-family: "Dubai Light", serif;
+    color: hsl(193, 89%, 65%);
+    font-weight: 400;
+    padding: 0.5vh;
+}
+
+.facts > li > span {
+    color: hsl(0, 0%, 80%);
+}
