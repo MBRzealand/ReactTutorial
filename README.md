@@ -1,3 +1,6 @@
+This is a repo where i follow the freeCodeCamp React course:  
+https://www.youtube.com/watch?v=bMknfKXIFA8&ab_channel=freeCodeCamp.org
+
 <details>
 <summary>Project 1</summary>
   <img src="https://user-images.githubusercontent.com/70659124/155328790-f0f61df1-daa3-4909-b125-e69baaf7d3fc.png"/>
