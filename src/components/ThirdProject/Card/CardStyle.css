@@ -1,0 +1,70 @@
+.event-card{
+    display: flex;
+    flex-direction: column;
+    width: 9vw;
+    margin: 0 0.5vw;
+}
+
+.status{
+    position: relative;
+    font-family: Poppins, serif;
+    background-color: hsl(0,0%,100%);
+    border-radius: 1px;
+    font-size: 0.4rem;
+    padding: 1px 3px;
+    top: 15px;
+    left: 3px;
+    width: 27px;
+    z-index: 2;
+    font-weight: 500;
+    text-align: center;
+}
+
+.event-card-image{
+    width: 9vw;
+}
+
+.star{
+    width: 0.6vw;
+    align-self: center;
+    padding-bottom: 1px;
+    margin-right: 2px;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    font-size: 0.45rem;
+    font-family: Poppins, serif;
+}
+
+.rating{
+    margin-right: 2px
+}
+
+.reviews{
+    color: hsl(0,0%,66%);
+    margin-right: 2px;
+}
+
+.country{
+    color: hsl(0,0%,66%);
+}
+
+.card-description{
+    font-family: Poppins, serif;
+    padding: 2px;
+    font-size: 0.40rem;
+}
+
+.price{
+    font-family: Poppins, serif;
+    padding: 2px;
+    font-size: 0.40rem;
+}
+
+.price > span {
+    font-weight: 700;
+}

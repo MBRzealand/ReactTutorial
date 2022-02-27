@@ -1,10 +1,11 @@
 import './App.css';
-import Card from "./components/SecondProject/Card/Card";
+import Site from "./components/ThirdProject/Site";
+
 
 function App() {
   return (
     <div className="App">
-      <Card/>
+      <Site/>
     </div>
   );
 }

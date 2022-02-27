@@ -1,0 +1,14 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 12px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.image {
+    align-self: center;
+    width: 50px;
+}

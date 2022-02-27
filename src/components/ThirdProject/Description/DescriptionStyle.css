@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+.description-title{
+    font-family: Poppins, serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.description{
+    background-color: hsl(0, 0%, 100%);
+    padding: 3vh 4vh 0;
+}
+
+.description-text{
+    font-family: Poppins, serif;
+    font-size: 0.6rem;
+    width: 75%;
+    line-height: 0.8rem;
+}

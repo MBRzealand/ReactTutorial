@@ -1,0 +1,12 @@
+.Group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 2vh 1vh -10px hsla(0, 0%, 0%, 0.1);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.GroupImage{
+    padding: 3vh 3vh 0;
+    width: 70%;
+}
