@@ -1,0 +1,6 @@
+.full-site{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    height: 85%;
+}
