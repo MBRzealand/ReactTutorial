@@ -1,0 +1,35 @@
+.meme-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button{
+    height: 5vh;
+    margin-top: 4%;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.meme{
+    padding: 10%;
+}
+
+.form-input{
+    height: 5vh;
+    width: 45%;
+    border-radius: 5px;
+    text-indent: 5px;
+    border: 1px solid #D5D4D8;
+}
+
+.meme-display{
+    display: flex;
+    margin-top: 8%;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}

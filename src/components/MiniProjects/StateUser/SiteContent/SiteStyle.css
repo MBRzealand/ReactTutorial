@@ -1,0 +1,11 @@
+.site-text{
+    margin-top: 2vh;
+
+}
+
+.site-content{
+    width: 100%;
+    height: 85%;
+    background-color: #cccbcb;
+    border-radius: 0 0 18px 18px;
+}

@@ -1,0 +1,31 @@
+.full-site{
+    font-family: "Dubai Light", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36%;
+    height: 85%;
+    background-color: #65AF53;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.add-button{
+    margin-top: 10%;
+    font-family: "Dubai Light", serif;
+    background: none;
+    text-align: center;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 4vh;
+    border: 1px solid;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.list-item{
+    width: 100%;
+    text-align: left;
+    text-indent: 3vh;
+}

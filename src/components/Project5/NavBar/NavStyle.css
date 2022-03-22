@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 12px 20px;
+}
+
+.image {
+    align-self: center;
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.nav-title{
+    font-size: 0.8rem;
+    color: hsl(0,0%,100%);
+    font-weight: 400;
+    font-family: Inter, serif;
+}
+
+.title-div{
+    display: flex;
+    align-items: center;
+
+}
+
+.sub-title{
+    font-size: 0.4rem;
+    color: hsl(0,0%,100%);
+    font-weight: 400;
+    font-family: Inter, serif;
+}

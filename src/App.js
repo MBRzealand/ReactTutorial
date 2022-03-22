@@ -1,5 +1,5 @@
 import './App.css';
-import Site from "./components/Project4/Site";
+import Site from "./components/MiniProjects/ConditionalJokes/Site";
 
 
 function App() {

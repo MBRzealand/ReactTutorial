@@ -1,0 +1,36 @@
+.full-site{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 36%;
+    height: 85%;
+}
+
+.minus-button{
+    z-index: 2;
+    position: relative;
+    bottom: 4vh;
+    right: 5vh;
+    text-align: center;
+    background-color: darkgrey;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+
+.plus-button{
+    z-index: 2;
+    position: relative;
+    bottom: 8vh;
+    left: 5vh;
+    text-align: center;
+    background-color: darkgrey;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}

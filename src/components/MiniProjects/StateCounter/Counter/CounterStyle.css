@@ -1,0 +1,8 @@
+.result{
+    line-height: 10vh;
+    text-align: center;
+    background-color: ghostwhite;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
