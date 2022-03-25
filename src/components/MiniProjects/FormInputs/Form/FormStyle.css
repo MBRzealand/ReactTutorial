@@ -1,0 +1,46 @@
+.name-input{
+    border: 1px black solid;
+    border-radius: 20px;
+    text-indent: 5%;
+    width: 40%;
+}
+
+.name-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.name-label{
+    width: 30%;
+}
+
+.submit-button{
+    width: 20%;
+    font-size: 0.5rem;
+}
+
+.name-form > input {
+    margin-bottom: 15px;
+}
+
+.comment-input{
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.radios{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-button{
+    display: flex;
+    align-items: center;
+}
+
+#favColor{
+    font-size: 0.5rem;
+}
