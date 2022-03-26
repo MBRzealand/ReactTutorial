@@ -66,7 +66,7 @@ const Meme = () => {
                 <button className={"form-button"}>Submit Meme</button>
             </form>
 
-            <div>
+            <div className={"meme-container"}>
                 <img
                     onChange={handleChange}
                     name={"img"}
