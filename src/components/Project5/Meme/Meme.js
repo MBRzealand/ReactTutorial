@@ -15,6 +15,7 @@ const Meme = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
+        console.log(formData)
     }
 
     const handleChange = (event) => {
@@ -42,33 +43,38 @@ const Meme = () => {
 
     return (
         <div className={"meme"}>
+            <button className={"form-button"} onClick={generateImage}>Get a new meme image  🖼</button>
             <form onSubmit={handleSubmit} className={"meme-form"}>
-                <input
-                    type="text"
-                    placeholder={"Top text"}
-                    className={"form-input"}
-                    onChange={handleChange}
-                    value={formData.topText}
-                    name={"topText"}
-                />
-                <input
-                    type="text"
-                    placeholder={"Bottom text"}
-                    className={"form-input"}/>
-                    onChange={handleChange}
-                    value={formData.bottomText}
-                    name={"topText"}
-                <button onClick={handleSubmit} className={"form-button"}>Get a new meme image  🖼</button>
+                <div className={"inputs"}>
+                    <input
+                        type="text"
+                        placeholder={"Top text"}
+                        className={"form-input"}
+                        onChange={handleChange}
+                        value={formData.topText}
+                        name={"topText"}
+                    />
+                    <input
+                        type="text"
+                        placeholder={"Bottom text"}
+                        className={"form-input"}
+                        onChange={handleChange}
+                        value={formData.bottomText}
+                        name={"bottomText"}
+                    />
+                </div>
+                <button className={"form-button"}>Submit Meme</button>
             </form>
 
-            <img
-                onChange={handleChange}
-                src={formData.img}
-                name={"img"}
-                className={"meme-display"}/>
-
-            <button onClick={generateImage}>generate image</button>
-
+            <div>
+                <img
+                    onChange={handleChange}
+                    name={"img"}
+                    src={formData.img}
+                    className={"meme-display"}/>
+                <p className={"top-text"}>{formData.topText}</p>
+                <p className={"bottom-text"}>{formData.bottomText}</p>
+            </div>
         </div>
     );
 };
