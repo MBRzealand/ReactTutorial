@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./MemeStyle.css"
 import memeData from "../MemeData"
 
@@ -10,8 +10,17 @@ const Meme = () => {
         topText : "",
     })
 
-    const [allImages, setAllImages] = React.useState(memeData)
+    // const [allImages, setAllImages] = React.useState(memeData)
 
+    const [APIImages, setAPIImages] = React.useState({})
+
+    useEffect(() => {
+        fetch("https://api.imgflip.com/get_memes")
+        .then(res => res.json())
+        .then(apiData => {
+            setAPIImages(apiData.data.memes)
+        })
+    }, [])
 
     const handleSubmit = (event) => {
         event.preventDefault()
@@ -30,8 +39,11 @@ const Meme = () => {
 
     const generateImage = () => {
 
-        const randNum = Math.floor(Math.random() * allImages.data.memes.length)
-        const url = allImages.data.memes[randNum].url
+        // const randNum = Math.floor(Math.random() * APIImages.data.memes.length)
+        // const url = APIImages.data.memes[randNum].url
+
+        const randNum = Math.floor(Math.random() * APIImages.length)
+        const url = APIImages[randNum].url
 
       setFormData(prevFormData => {
           return {
